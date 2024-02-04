@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Workbench&display=swap');
+
+@import "./themes.css";
+
+:root{
+
+    /* colors */
+    --grey: #dacfbd;
+    --grey-dark:#3b3936;
+    --blue: #1e22e6;
+    --blue-dark: #0d0f68;
+    --green: #1ef50b;
+    --green-dark: #0c6d04;
+
+    /* renk paleti */
+    --green-1:#042940;
+    --green-2:#005C53;
+    --green-3:#9FC131;
+    --green-4:#DBF227;
+    --green-5:#D6D58E;
+
+    /* Font */
+    --ff-workbench: 'Workbench', sans-serif;
+    --ff-lato: 'Lato', sans-serif;
+
+    /* FONT_SİZE */
+    --fs-lg:1.4rem;
+    --fs-xl:2em;
+    --fs-xxl:3em;
+}
+
+
+body{
+    background-color: var(--grey);
+      /* font-family: 'Workbench', sans-serif; */
+    /* font-family: 'Workbench', sans-serif; */
+}
+
+h1{
+    background-color: var(--blue);
+    font-family: var(--ff-lato);
+}
+
+p{
+    background-color: var(--blue-dark);
+    color:  var(--grey);
+    font-family: var(--ff-workbench);
+    font-size: var(--fs-lg);
+}
+
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    background-color: var(--green-5);
+}
+
+.light{
+    width: 150px;
+    height: 150px;
+    background-color: var(--green-4);
+    /* background-color: var(--grey-5); */
+    font-family: var(--ff-sevillana);
+
+}
+
+.dark{
+    width: 150px;
+    height: 150px;
+    background-color: var(--green-3);
+    font-family: var(--ff-yeon);
+}
+
+@media  screen and (min-width:850px) and (max-width:950px){
+    body{
+        background-color: rgb(73, 43, 7);
+    }
+}
+
+@media  screen and (max-width:850px) {
+    body{
+        background-color: darkorange;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    body{
+        background-color: olive;
+    }
+}
+
+@media  screen and (max-width:300px) {
+    body{
+        background-color: fuchsia;
+    }
+}
