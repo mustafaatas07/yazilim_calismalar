@@ -1,0 +1,107 @@
+@import "./themes.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--grey-8);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 2rem;
+   
+
+}
+
+.bas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    }
+
+main{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    }
+main img{
+    width: 80%;
+    padding: 2rem;
+}
+
+@media screen and (min-width:900px){
+    .rose{
+        display: none;
+    }
+
+    .flower{
+        display: none;
+    }
+    .dog{
+        display: none;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+
+    body{
+        background-color: var(--purple);
+    }
+    .tiger{
+        display: none;
+    }
+
+    .flower{
+        display: none;
+    }
+    .dog{
+        display: none;
+    }
+    
+}
+
+ @media screen and (min-width:500px) and (max-width:600px){
+    
+    body{
+        background-color: var(--green-dark);
+    }
+
+    .bas{
+        flex-direction: column;
+    }
+
+    .tiger{
+        display: none;
+    }
+
+    .rose{
+        display: none;
+    }
+    .dog{
+        display: none;
+    }
+ }
+ @media screen and (max-width:500px){
+    body{
+        background-color: var(--green-light);
+    }
+    .bas{
+        flex-direction: column;
+    }
+    
+    .tiger{
+        display: none;
+    }
+
+    .rose{
+        display: none;
+    }
+    .flower{
+        display: none;
+    }
+     
+ }
