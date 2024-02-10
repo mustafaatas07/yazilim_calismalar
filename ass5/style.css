@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    /* height: 1000px; */
+  }
+
+  .container{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 200px 200px 200px;
+    gap: 1.2rem;
+    /* border-radius: 5%; */
+  }
+
+  .content{
+    /* border: 2px solid rgba(7, 141, 146, 0.788); */
+    box-shadow: 4px 4px 4px #8bf1f1;
+    border-radius:2em;
+    font-family: 'Protest Riot', sans-serif;
+  
+  }
+
+  .content1{
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+    grid-area: 1/1/2/5;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius:2em;
+  }
+
+  .love{
+    position: absolute;
+    height: 4rem;
+    width: 100%;
+    bottom: 0px;
+    background-color:azure ;
+    /* border-radius: 5%; */
+    z-index: 1;
+    border-radius:0 0 2em 2em;
+  
+  }
+
+.content1 img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+  background-position: center;
+  object-fit: cover;
+
+}
+
+.content2{
+  grid-area:4/1/5/2 ;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.aquarium{
+  position: absolute;
+  height: 1.5rem;
+  width: 100%;
+  bottom: 0px;
+  background-color:azure ;
+  /* border-radius: 5%; */
+  z-index: 1;
+  border-radius:0 0 2em 2em;
+}
+
+
+.content2 img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+  background-position: center;
+  object-fit: cover;
+  
+}
+
+.content5{
+  grid-area:2/4/5/5 ;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.yivm{
+  position: absolute;
+  height: 1.5rem;
+  width: 100%;
+  bottom: 0px;
+  background-color:azure ;
+  /* border-radius: 5%; */
+  z-index: 1;
+  border-radius:0 0 2em 2em;
+}
+
+.content5 img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+  background-position: center;
+  object-fit: cover;
+}
+
+.content3{
+  grid-area:2/1/4/4 ;
+  position: relative;
+  display: flex;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.treedoors{
+  position: absolute;
+  height: 4rem;
+  width: 100%;
+  bottom: 0px;
+  background-color:azure ;
+  /* border-radius: 5%; */
+  z-index: 1;
+  border-radius:0 0 2em 2em;
+}
+
+.content3 img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+  background-position: center;
+  object-fit: cover;
+}
+
+.content7{
+  grid-area:5/1/6/5 ;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.kaltı{
+  position: absolute;
+  height: 1.5rem;
+  width: 100%;
+  bottom: 0px;
+  background-color:azure ;
+  /* border-radius: 5%; */
+  z-index: 1;
+  border-radius:0 0 2em 2em;
+}
+
+.content7 img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+  background-position: center;
+  object-fit: cover;
+}
+
+.content4{
+  grid-area:4/2/5/3;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.duden{
+  position: absolute;
+  height: 1.5rem;
+  width: 100%;
+  bottom: 0px;
+  background-color:azure ;
+  /* border-radius: 5%; */
+  z-index: 1;
+  border-radius:0 0 2em 2em;
+}
+
+.content4 img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+  background-position: center;
+  object-fit: cover;
+}
+
+.content6{
+  grid-area:4/3/5/4;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.myra{
+  position: absolute;
+  height: 1.5rem;
+  width: 100%;
+  bottom: 0px;
+  background-color:azure ;
+  /* border-radius: 5%; */
+  z-index: 1;
+  border-radius:0 0 2em 2em;
+}
+
+.content6 img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 5%; */
+  background-position: center;
+  object-fit: cover;
+}
+
+/* .imgAk:hover{
+  transform: scale(1.1);
+
+} */
+
+img:hover{
+  transform: scale(1.1);
+  /* border-radius:2em; */
+}
+
+img{
+  border-radius:2em;
+}
