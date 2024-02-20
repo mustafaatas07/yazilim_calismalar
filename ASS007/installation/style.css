@@ -1,0 +1,73 @@
+
+
+*{
+    font-family: "Inter", sans-serif !important;
+    /* color: red !important; */
+}
+
+ /* .card:hover{ */
+
+.card-title:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+    border-radius: 5%;
+
+}
+
+.card-textistekY{
+    background-color: rgba(0, 0, 0, 0.116);
+    border-radius: 5%;
+    color:rgba(5, 1, 252, 0.507)
+}
+.navbar{
+    position: fixed;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.d-block{
+    height: 100vh !important;
+}
+
+.carousel-indicators {
+    background-color: darkgrey;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img{
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.05);
+}
+
+
+.btn:hover{
+    transform: scale(0.9); 
+}
+.container .card{
+    overflow: hidden;
+
+}
+
+#yorumlar{
+    background-color: rgba(128, 128, 128, 0.288);
+}
+
+#yorumlar .card-body{
+    height: 10rem;
+}
+
+#yorumlar .card-img-top{
+    height: 15rem;
+}
+
+.aile:hover{
+    color: black;
+    border-radius: 10%;
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
